@@ -60,7 +60,7 @@
             <p>针对电池管理中的任务多样性与数据异构性问题，我们提出了灵活掩码自编码器（Flexible Masked Autoencoder, FMAE），具备对任务输入格式和结构变化的适应能力，支持多种电池管理任务（如状态估计、剩余寿命预测、异常检测）的一体化建模与泛化迁移。在11个来源于真实电池系统的数据集上验证后，FMAE在多个电池相关任务上均显著优于任务专用模型，展示出极强的跨任务、跨数据集、跨系统的泛化能力。这为后续通用型电池AI系统的构建提供了技术路径。</p>
             <p>为进一步提升数据质量和模型泛化能力，我们针对电池系统复杂时空演化特性构建了基于反离散傅里叶变换（IDFT）引导的合成数据生成方法，结合系统物理属性与频域先验信息，引导生成具有代表性的合成样本，从而显著提升建模精度与泛化能力。在锂电池容量预测任务中，我们的方法在实际恒流-恒压（CC-CV）充电与真实EV运行模式下均取得了R²&gt;0.96的性能和极低的MSE，较传统采样策略提升最高达45%。这一方法不仅适用于电池系统，更为PDE驱动的多物理系统建模（如材料、流体）提供了全新的采样与建模范式。</p>
             <p>为应对能源系统类型多样、结构复杂等难题，我们提出了零样本（Zero-shot）能源系统统一建模框架，可在无任务专用信息的前提下对不同类型的系统进行泛化建模与预测。该方法引入自适应注意力机制，在统一结构中支持设备级、网络级、系统级的异构能源系统建模。通过在多种电池类型与能源网络拓扑上训练后，模型可直接迁移至全新能源系统，实现零样本建模。这一统一建模框架可广泛应用于不同尺度、各类技术或网络类型的能源系统建模与管理，无需依赖类型相关的先验信息，尤其适用于新型能源技术、分布式即插即用能源系统及其在电网中的协同调度，有望为下一代智能电网、灵活用能系统和低碳能源技术部署提供重要支撑。</p>
-            <p><img src="/ec2-web/assets/images/research/energy_ai_en.png" alt="" /></p>
+            <p><img src="/ec2-web/assets/images/research/energy_ai_en.jpg" alt="" /></p>
             <ul>
               <li><a target="_blank" href="https://www.nature.com/articles/s41467-023-41226-5">Zhang, J., Wang, Y., Jiang, B., He, H., Huang, S., Wang, C., … &amp; Ouyang, M. (2023). Realistic fault detection of li-ion battery via dynamical deep learning. Nature Communications, 14(1), 5940.</a></li>
               <li><a target="_blank" href="https://ieeexplore.ieee.org/document/10737665">He, G., Ding, Y., Wu, Z., Chen, X., Zhang, D., &amp; Song, J. (2024). Environment-adaptive online learning for portable energy storage based on porous electrode model. IEEE Transactions on Automation Science and Engineering.</a></li>
